@@ -24,7 +24,7 @@ db = client[MONGO_DB_NAME]
 collection = db[MONGO_COLLECTION_NAME]
 
 options = webdriver.ChromeOptions()
-options.add_argument('--headless')
+
 
 # 将浏览器初始化为Chorme浏览器
 browser = webdriver.Chrome(options=options)

@@ -38,4 +38,3 @@ actions.drag_and_drop(source, target)
 
 actions.perform()
 # 执行ActionChains中的操作
-d'f
